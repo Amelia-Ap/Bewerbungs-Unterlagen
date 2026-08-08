@@ -9,8 +9,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: test1.qmd
-        text: Test1
+      - href: multi-os-network.qmd
+        text: multi-os-network
       - href: test2.qmd
         text: Test2
 

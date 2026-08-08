@@ -1,5 +1,5 @@
 ---
-title: "Quarto Document"
+title: "My IT projects"
 prefer-html: true
 format:
   html:
@@ -25,6 +25,10 @@ source("/home/someone/Desktop/Programming + Markup/R/Data-Visualisations/Wordclo
 # sorted_hist for wordcloud2
 source("/home/someone/Desktop/Programming + Markup/R/Data-Visualisations/Lists/ordered_list.R")
 ```
+
+[multi-os-network](multi-os-network.qmd){.btn .btn-primary},
+[terminal history](test2.qmd){.btn .btn-primary}
+
 
 Logging, in my opinion, or getting knowledge out of a big amount of information is one of the most important skills in IT. I feel like I've noticed a lot of things coming down to good documentation about what's being done in order for you not to have almost the exact same effort the next time you're doing it, considering it's a while.
 
