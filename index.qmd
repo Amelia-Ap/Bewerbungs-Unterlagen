@@ -11,21 +11,8 @@ execute:
   warning: false
 ---
 
-```{r load_libraries}
-#| echo: false
-library(tidyverse)
-library(DT)
-library(ggwordcloud)
-```
+Get to my projects here! One containing a self created network of multiple os, including Windows Server 2022, Windows11, Debian, Ubuntuserver and FreeBSD and the other one showing my commandline histories in a concise and beautiful way via charts and wordclouds.
 
-```{r load_files}
-#| echo: false
-source("/home/someone/Desktop/Programming + Markup/R/Data-Visualisations/Wordclouds/command_wordcloud.R")
-# this yields variables tf_hist intended for a dt-table and
-# sorted_hist for wordcloud2
-source("/home/someone/Desktop/Programming + Markup/R/Data-Visualisations/Lists/ordered_list.R")
-```
-Get to my projects here! One containing a self created network of multiple os, including Windows Server 2022, Windows11, Debian, Ubuntuserver and FreeBSD and the other one showing my commandline histories in a concise and beautiful way via charts and wordclouds. More 
 [multi-os-network(WIP)](multi-os-network.qmd){.btn .btn-primary},
 [terminal history](test2.qmd){.btn .btn-primary}
 

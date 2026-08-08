@@ -4,20 +4,6 @@ title: "Test!"
 
 # Test2
 
-Any stuff
----
-title: "My IT projects"
-prefer-html: true
-format:
-  html:
-    code-fold: true
-    code-summary: "Show the code"
-engine: knitr
-execute:
-  echo: true
-  warning: false
----
-
 ```{r load_libraries}
 #| echo: false
 library(tidyverse)
@@ -40,8 +26,6 @@ Get to my projects here! One containing a self created network of multiple os, i
 Logging, in my opinion, or getting knowledge out of a big amount of information is one of the most important skills in IT. I feel like I've noticed a lot of things coming down to good documentation about what's being done in order for you not to have almost the exact same effort the next time you're doing it, considering it's a while.
 Logging, in my opinion, or getting knowledge out of a big amount of information is one of the most important skills in IT. I feel like I've noticed a lot of things coming down to good documentation about what's being done in order for you not to have almost the exact same effort the next time you're doing it, considering it's a while.
 
-
-# What commands have I used the most?
 # What commands have I used the most?
 
 
@@ -50,64 +34,40 @@ I use the bash `history` command quite a lot to find commands I've used before a
 
 
 ::: {.panel-tabset}
-::: {.panel-tabset}
 
 
-## wordcloud
 ## wordcloud
 
 
 ```{r ggwordcloud}
-```{r ggwordcloud}
-set.seed(42)
 set.seed(42)
 filtered_hist <- filter(sorted_hist, freq>20)
-filtered_hist <- filter(sorted_hist, freq>20)
-ggplot(filtered_hist, aes(label = command, size = freq, color = freq)) +
 ggplot(filtered_hist, aes(label = command, size = freq, color = freq)) +
   geom_text_wordcloud_area() +
-  geom_text_wordcloud_area() +
-  scale_size_area(max_size=50) +
   scale_size_area(max_size=50) +
   theme_minimal() +
-  theme_minimal() +
   scale_color_gradient(low = "blue", high = "darkcyan")
-  scale_color_gradient(low = "blue", high = "darkcyan")
-```
 ```
 
 
 ## table
-## table
 
 
 ```{r dt}
-```{r dt}
-table <- datatable(tf_hist, options = list(order = list(2, 'desc')))
 table <- datatable(tf_hist, options = list(order = list(2, 'desc')))
 table
-table
-```
 ```
 
 
 :::
-:::
 
 
 While a wordcloud looks quite nice it's not the best in most cases to communicate information in a cohesive way. Therefore we'll have an interactively sortable table as well
-While a wordcloud looks quite nice it's not the best in most cases to communicate information in a cohesive way. Therefore we'll have an interactively sortable table as well
-
 
 That length, however, means that we'll have to use tools to get our wanted info and can't just count. I'll use `awk, sort, uniq` and pipes (`|`) for that matter.
-That length, however, means that we'll have to use tools to get our wanted info and can't just count. I'll use `awk, sort, uniq` and pipes (`|`) for that matter.
-
 
 `history | awk '{print $2}'` will show us all the commands that are the first word of a command invocation. Not sorted, nor counted though, but
-`history | awk '{print $2}'` will show us all the commands that are the first word of a command invocation. Not sorted, nor counted though, but
-`history | awk '{print $2}' | sort | uniq | sort -n` does the rest.
 `history | awk '{print $2}' | sort | uniq | sort -n` does the rest.
 
 
-With quarto and R that's all that is needed to make those graphics from that and in result this document.
 With quarto and R that's all that is needed to make those graphics from that and in result this document.
