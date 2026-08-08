@@ -10,9 +10,9 @@ website:
       - href: index.qmd
         text: Home
       - href: multi-os-network.qmd
-        text: multi-os-network
-      - href: test2.qmd
-        text: Test2
+        text: Multi-OS-Network
+      - href: commandline_histories.qmd
+        text: Commandline-Histories
 
 format:
   html:

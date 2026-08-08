@@ -13,6 +13,6 @@ execute:
 
 Get to my projects here! One containing a self created network of multiple os, including Windows Server 2022, Windows11, Debian, Ubuntuserver and FreeBSD and the other one showing my commandline histories in a concise and beautiful way via charts and wordclouds.
 
-[multi-os-network(WIP)](multi-os-network.qmd){.btn .btn-primary},
-[terminal history](test2.qmd){.btn .btn-primary}
+[Multi-OS-Network(WIP)](multi-os-network.qmd){.btn .btn-primary},
+[Commandline-Histories](commandline_histories.qmd){.btn .btn-primary}
 
