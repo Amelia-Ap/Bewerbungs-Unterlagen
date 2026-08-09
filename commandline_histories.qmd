@@ -26,7 +26,6 @@ Logging, in my opinion, or getting knowledge out of a big amount of information 
 
 
 I use the bash `history` command quite a lot to find commands I've used before and it helps me getting to solutions a lot faster for things I've done before, but don't quite remember. Thinking about this I got curious about stuff like "Which commands have I used the most?", "What are the most pipes I've used?" or "Which command is most probable to preceed / follow a pipe?". First one I'll answer now:
-I use the bash `history` command quite a lot to find commands I've used before and it helps me getting to solutions a lot faster for things I've done before, but don't quite remember. Thinking about this I got curious about stuff like "Which commands have I used the most?", "What are the most pipes I've used?" or "Which command is most probable to preceed / follow a pipe?". First one I'll answer now:
 
 
 ::: {.panel-tabset}
