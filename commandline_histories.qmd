@@ -21,7 +21,6 @@ source("/home/someone/Desktop/Programming + Markup/R/Data-Visualisations/Lists/o
 ```
 
 Logging, in my opinion, or getting knowledge out of a big amount of information is one of the most important skills in IT. I feel like I've noticed a lot of things coming down to good documentation about what's being done in order for you not to have almost the exact same effort the next time you're doing it, considering it's a while.
-Logging, in my opinion, or getting knowledge out of a big amount of information is one of the most important skills in IT. I feel like I've noticed a lot of things coming down to good documentation about what's being done in order for you not to have almost the exact same effort the next time you're doing it, considering it's a while.
 
 # What commands have I used the most?
 
