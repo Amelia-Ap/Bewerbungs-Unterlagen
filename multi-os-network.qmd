@@ -2,6 +2,5 @@
 title: "multi-os-network"
 ---
 
-# multi-os-network
-
 ![General Outline](/images/vm_multi-os_network.png)
+
