@@ -2,5 +2,5 @@
 title: "multi-os-network"
 ---
 
-![General Outline](/images/vm_multi-os_network.png)
+![General Outline in Packet Tracer](/images/vm_multi-os_network.png)
 
