@@ -18,6 +18,6 @@
     "href": "multi-os-network.html",
     "title": "multi-os-network",
     "section": "",
-    "text": "General Outline in Packet Tracer\n\n\nThis is a network built of multiple different operation systems, namely, Windowsserver2022, Windows11, Debian, Ubuntu"
+    "text": "General Outline in Packet Tracer\n\n\nThis is a network built of multiple different operation systems, namely, Windowsserver2022, Windows11, Debian and FreeBSD with FreeBSD acting as a router using static routing. All the VMs were created with Powershell scripts."
   }
 ]
