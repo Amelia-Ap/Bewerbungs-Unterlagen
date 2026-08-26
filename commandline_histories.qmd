@@ -33,7 +33,6 @@ I use the bash `history` command quite a lot to find commands I've used before a
 
 ## wordcloud
 
-
 ```{r ggwordcloud}
 set.seed(42)
 filtered_hist <- filter(sorted_hist, freq>20)
@@ -44,15 +43,11 @@ ggplot(filtered_hist, aes(label = command, size = freq, color = freq)) +
   scale_color_gradient(low = "blue", high = "darkcyan")
 ```
 
-
 ## table
-
-
 ```{r dt}
 table <- datatable(tf_hist, options = list(order = list(2, 'desc')))
 table
 ```
-
 
 :::
 
