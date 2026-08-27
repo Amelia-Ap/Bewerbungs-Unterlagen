@@ -14,10 +14,10 @@ library(ggwordcloud)
 
 ```{r load_files}
 #| echo: false
-source("scripts/command_wordcloud.R")
+source("~/repos/Bewerbungs-Unterlagen/scripts/command_wordcloud.R")
 # this yields variables tf_hist intended for a dt-table and
 # sorted_hist for wordcloud2
-source("scripts/ordered_list.R")
+source("~/repos/Bewerbungs-Unterlagen/scripts/ordered_list.R")
 ```
 
 Logging, in my opinion, or getting knowledge out of a big amount of information is one of the most important skills in IT. I feel like I've noticed a lot of things coming down to good documentation about what's being done in order for you not to have almost the exact same effort the next time you're doing it, considering it's a while.
