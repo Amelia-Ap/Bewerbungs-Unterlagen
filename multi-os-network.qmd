@@ -4,5 +4,5 @@ title: "multi-os-network"
 
 ![General Outline in Packet Tracer](/images/vm_multi-os_network.png)
 
-This is a network built of multiple different operation systems, namely, Windowsserver2022, Windows11, Debian and FreeBSD with FreeBSD acting as a router using static routing. All the VMs were created with Powershell scripts.
+This is a network built of multiple different operation systems, namely, Windowsserver2022, Windows11, Debian and FreeBSD with the latter acting as a router using static routing. All the VMs were created with Powershell scripts.
 
