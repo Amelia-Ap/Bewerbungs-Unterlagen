@@ -1,7 +1,7 @@
 library(tidyverse)
 library(wordcloud2)
 # import csv file as data
-history_data=read_csv("/home/someone/Desktop/Programming + Markup/R/Data-Visualisations/Wordclouds/commands_freq.csv")
+history_data=read_csv("commands_freq.csv")
 
 # set column command to factor type and freq to numeric
 tf_hist=transform(history_data, command = as.factor(command), freq = as.numeric(freq))
