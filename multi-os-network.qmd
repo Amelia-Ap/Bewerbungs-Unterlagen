@@ -2,7 +2,7 @@
 title: "multi-os-network"
 ---
 
-![General Outline in Packet Tracer](/images/vm_multi-os_network.png)
+![General Outline](/images/vm_multi-os_network.png)
 
-This is a network built of multiple different operation systems, namely, Windowsserver2022, Windows11, Debian and FreeBSD with the latter acting as a router using static routing. All the VMs were created with Powershell scripts.
+Packet Tracer was used to test the Network with the intended layout. That can be used to basically just transfer the relevant technologies to the corresponding operation systems, which include static ip configurations on all Windowsserver2022, Windows11, Ubuntuserver, Debian and FreeBSD with the latter acting as a router using static routing. All the VMs were created with Powershell scripts.
 
