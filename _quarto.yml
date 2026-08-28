@@ -1,18 +1,16 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: html
 
 website:
   title: "Amelia's Projects"
 
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: multi-os-network.qmd
-        text: Multi-OS-Network
-      - href: commandline_histories.qmd
-        text: Commandline-Histories
+      - href: multi-os_network.qmd
+        text: Multi-OS Network
+      - href: command-line_history.qmd
+        text: Command-Line History
 
 format:
   html:

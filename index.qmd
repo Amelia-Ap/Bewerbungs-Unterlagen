@@ -1,5 +1,5 @@
 ---
-title: "My IT projects"
+title: "Overview"
 prefer-html: true
 format:
   html:
@@ -11,8 +11,7 @@ execute:
   warning: false
 ---
 
-Get to my projects here! One containing a self created network of multiple os, including Windows Server 2022, Windows11, Debian, Ubuntuserver and FreeBSD and the other one showing my commandline histories in a concise and beautiful way via charts and wordclouds.
+Get to my projects here! First is an experimental network of hosts running a diverse set of operating systems, including Windows Server 2022, Windows 11, Debian Linux, Ubuntu Server and FreeBSD. The second one is about visualizing my command-line history in a concise and beautiful way with charts and wordclouds.
 
-[Multi-OS-Network(WIP)](multi-os-network.qmd){.btn .btn-primary}
-[Commandline-Histories](commandline_histories.qmd){.btn .btn-primary}
-
+[Experimental Multi-OS Network (WIP)](multi-os_network.qmd){.btn .btn-primary}
+[Visual Command-Line History](command-line_history.qmd){.btn .btn-primary}
